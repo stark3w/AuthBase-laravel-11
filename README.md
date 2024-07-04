@@ -3,6 +3,8 @@ This project was created to implement registration and authorization without any
 
 To run the project, use the following commands:
 
+composer updated
+
 php artisan migrate
 
 php artisan serve
