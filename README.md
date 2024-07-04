@@ -5,7 +5,20 @@ To run the project, use the following commands:
 
 composer update
 
-php artisan migrate
+Create a .env File:
+In the root directory of your project, create a new file named .env.
+
+Copy Contents from .env.example:
+Open the .env.example file and copy all its contents.
+
+Paste into .env File:
+Paste the copied contents into the newly created .env file.
+
+php artisan key:generate
+
+php artisan config:cache
+
+php artisan migrate --seed
 
 php artisan serve
 
